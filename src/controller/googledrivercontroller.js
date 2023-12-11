@@ -33,7 +33,7 @@ export const uploadFile = async (req, res) => {
 
     res.json({
       id: respose.data.id,
-      url: `https://drive.google.com/uc?export=view&id=${respose.data.id}`, //url image
+      url: `https://drive.google.com/uc?export=view&id=${respose.data.id}`, //url image google drive
     });
   } catch (error) {
     console.log(error);
